@@ -1,0 +1,82 @@
+/* styles/components.css */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.stat-card {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.stat-card h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1rem;
+}
+
+.stat-card p {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.sparkline-container {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.sparkline {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+}
+
+.sparkline-bar {
+    background-color: #007bff;
+    width: 10%;
+    border-radius: 2px 2px 0 0;
+}
+
+#add-edit-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-field {
+    margin-bottom: 1.5rem;
+}
+
+.form-field label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-field input,
+.form-field select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.error-message {
+    color: #d9534f;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+    display: block;
+    /* So it appears on a new line */
+}
+
+.form-actions {
+    display: flex;
+    gap: 1rem;
+}
